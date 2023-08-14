@@ -36,7 +36,7 @@ contract ContractTest is Test {
         vm.label(address(WETH), "WETH");
         vm.label(address(axlUSDC), "axlUSDC");
         vm.label(address(Router), "Router");
-        vm.label(address(Pair), "Piar");
+        vm.label(address(Pair), "Pair");
     }
 
     function testExploit() external {
